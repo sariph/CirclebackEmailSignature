@@ -2,39 +2,34 @@
 
 <b>Steps To Run:</b>
 
-Run Main Method of CircleBackEmailSignature
+1. Run Main Method of CircleBackEmailSignature
+
 
 <b>Change/Update the following Configuration if required in PropertyConfiguration.java</b>
 
-<b>Input File for POST Request:</b>
+1. Input File for POST Request: SigCapturePostRequest_INPUT_FILE_TO_POST_REQUEST.json
 
-SigCapturePostRequest_INPUT_FILE_TO_POST_REQUEST.json
+2. Input File To Merge with Response Contacts: SigCaptureContact_INPUT_FILE_TO_MERGE_WITH.json
 
-<b>Input File To Merge with Response Contacts:</b>
+3. Final Output File: SigCaptureContact_FINAL_OUTPUT.json
 
-SigCaptureContact_INPUT_FILE_TO_MERGE_WITH.json
+4. REST Response Output(Optional): SigCaptureContact_REST_RESPONSE_OUTPUT.json
 
-<b>Final Output File:</b>
+5. URL To POST Request: https://api.circleback.com/service/sig-capture/scan
 
-SigCaptureContact_FINAL_OUTPUT.json
+6. HTTP Header Cache Control: no-cache
 
-<b>REST Response Output(Optional):</b>
+7. HTTP Header for API Key: X-CB-ApiKey
 
-SigCaptureContact_REST_RESPONSE_OUTPUT.json
+8. HTTP Header for API Key's Value: ZWU4OGFlOGYtNTc4Ni00ZjY0LWJjMGYtNzAxNTkyYjliNWZi
 
-<b>URL To POST Request: https:</b>//api.circleback.com/service/sig-capture/scan
-
-<b>HTTP Header Cache Control:</b>no-cache
-
-<b>HTTP Header for API Key:</b>X-CB-ApiKey
-
-<b>HTTP Header for API Key's Value:</b>ZWU4OGFlOGYtNTc4Ni00ZjY0LWJjMGYtNzAxNTkyYjliNWZi
 
 <b>Assumptions:</b>
 
 1. The emails are case sensitive so john@gmail.com and JOHN@gmail.com are considered different
 
 2. The phone numbers should be an exact match and would not consider country code, for example 1-888-888-888 is not equivalent to 888-888-888
+
 
 <b>Basic Program Steps Taken:</b>
 
