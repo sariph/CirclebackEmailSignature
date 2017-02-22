@@ -49,5 +49,5 @@
 
 <b>Conclusion:</b>
 
-1. Please look at SigCaptureContact_FINAL_OUTPUT.json for the final json
+1. Please look at SigCaptureContact_FINAL_OUTPUT.json for the final json which is in the file path /src/main/resources/SigCaptureContact_FINAL_OUTPUT.json
 
