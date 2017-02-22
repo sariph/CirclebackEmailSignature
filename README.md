@@ -30,6 +30,8 @@
 
 2. The phone numbers should be an exact match and would not consider country code, for example 1-888-888-888 is not equivalent to 888-888-888
 
+3. Some of the input file was updated for example URL should not be uppercase as suggested in the documentation, URL was replaced with url. There were few other minor changes to reflect to the standard.
+
 
 <b>Basic Program Steps Taken:</b>
 
@@ -45,5 +47,6 @@
 
 6. Write to a file
 
-
+<b>Conclusion</b>
+1. Please look at SigCaptureContact_FINAL_OUTPUT.json for the final json
 
