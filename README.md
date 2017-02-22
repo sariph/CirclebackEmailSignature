@@ -47,6 +47,7 @@
 
 6. Write to a file
 
-<b>Conclusion</b>
+<b>Conclusion:</b>
+
 1. Please look at SigCaptureContact_FINAL_OUTPUT.json for the final json
 
